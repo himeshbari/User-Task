@@ -1,0 +1,44 @@
+/* //navbar css */
+.navbar {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: uppercase;
+    background-color: #FE6777 !important;
+    width: 200px;
+  }
+  
+  .nav-link {
+    font-weight: 400 !important;
+    color: white;
+    
+  }
+  
+  .active {
+    /* border-bottom: 2px solid #a4cfff; */
+    color: #C70039 !important;
+  }
+
+  .nav-item{
+    display: flex;
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    font-family: "roboto", sans-serif;
+    letter-spacing: 3px;
+  }
+
+  @media only screen and (min-width: 995px) {
+    .navbar {
+        height: 100vh !important;
+      }    
+    
+  }
+
+  @media only screen and (max-width: 995px) {
+    .navbar {
+        width: 100vw !important;
+      }    
+    
+  }
